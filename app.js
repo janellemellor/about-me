@@ -20,4 +20,17 @@ button.addEventListener('click', () => {
     
        
     results.textContent = 'Congratulations ' + name + ', you got ' + (counter / 3) * 100 + '% correct!';
+
+
+    if (counter === 3) { 
+        console.log(counter);
+        results.classList.add('results');
+
+    } else {
+        console.log(counter);
+      
+    }
 });
+
+
+
