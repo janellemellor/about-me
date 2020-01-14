@@ -1,16 +1,78 @@
-// IMPORT MODULES under test here:
-// import example from '../src/example.js';
+import isYes from '../src/isYes.js';
 
 const test = QUnit.test;
 
-test('time to test a function', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
+test('test isyes', function(assert) {
+    const answer = 'yes';
+    const expected = true;
 
-    //Act 
-    // Call the function you're testing and set the result to a const
+    const result = isYes(answer);
 
-    //Assert
-    // Make assertions about what is expected valid result
-    assert.equal(true, false);
+    assert.equal(result, expected);
+});
+
+
+
+test('test isYes', function(assert) {
+    const answer = 'Yes';
+    const expected = true;
+
+    const result = isYes(answer);
+
+    assert.equal(result, expected);
+});
+
+
+
+test('test isY', function(assert) {
+    const answer = 'Y';
+    const expected = true;
+
+    const result = isYes(answer);
+
+    assert.equal(result, expected);
+});
+
+
+
+test('test isy', function(assert) {
+    const answer = 'y';
+    const expected = true;
+
+    const result = isYes(answer);
+
+    assert.equal(result, expected);
+});
+
+
+
+test('test isYes', function(assert) {
+    const answer = 'Yes';
+    const expected = true;
+
+    const result = isYes(answer);
+
+    assert.equal(result, expected);
+});
+
+
+
+test('test isNo', function(assert) {
+    const answer = 'No';
+    const expected = false;
+
+    const result = isYes(answer);
+
+    assert.equal(result, expected);
+});
+
+
+
+test('test isno', function(assert) {
+    const answer = 'no';
+    const expected = false;
+    
+    const result = isYes(answer);
+
+    assert.equal(result, expected);
 });
