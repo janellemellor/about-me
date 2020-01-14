@@ -1,5 +1,4 @@
 import isYes from '../src/isYes.js';
-console.log ('hello');
 
 const results = document.getElementById ('results');
 const button = document.getElementById('button');
@@ -19,16 +18,5 @@ button.addEventListener('click', () => {
     if (isYes(qTwo)) counter += 1;
     if (isYes(qThree)) counter += 1;
        
-
     results.textContent = 'Congratulations ' + name + ', you got ' + counter + ' correct!';
-
 });
-
-
- //     const hidden = document.getElementById("results");
-    //     if (hidden.style.display === "none") {
-    //       hidden.style.display = "block";
-    //     } else {
-    //       hidden.style.display = "none";
-    //     }
-    // }        

@@ -1,11 +1,23 @@
+body {
+    background-color: #BBB4AC;
+}
+
+
 h1,
 h3 {font-family: 'Shadows Into Light', cursive;
-};
+    color: #1F1740;
+}
 
-p {
+
+p,
+li {
     font-family: 'Cormorant Garamond', serif;
 }
 
-# button {
 
-};
+button {
+    background-color: #9AACD2;
+    border-color: #C2939B;
+    border-style: dotted;
+    font-size: 15px;
+}
