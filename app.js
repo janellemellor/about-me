@@ -17,6 +17,7 @@ button.addEventListener('click', () => {
     if (isYes(qOne)) counter += 1;
     if (isYes(qTwo)) counter += 1;
     if (isYes(qThree)) counter += 1;
+    
        
-    results.textContent = 'Congratulations ' + name + ', you got ' + counter + ' correct!';
+    results.textContent = 'Congratulations ' + name + ', you got ' + (counter / 3) * 100 + '% correct!';
 });
