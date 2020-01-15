@@ -1,0 +1,21 @@
+body {
+    background-color: #3DE7E7;
+    text-align: center;
+}
+
+header {
+    color: #C638D2; 
+    font-size:30px;
+    text-align: center;
+    border: dotted;
+    border-color: #FBFF32;
+}
+
+p {
+    color: #2589E1;
+    font-size: 25px;
+}
+
+
+
+
