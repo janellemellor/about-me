@@ -6,9 +6,9 @@ const triesRemaining = document.getElementById('tries-remaining');
 const highLow = document.getElementById('high-low');
 const results = document.getElementById('results');
 
+
 // random number from MDN
-const correctNumber = Math.floor
-(Math.random() * (20 - 1 + 1)) + 1; 
+const correctNumber = Math.floor (Math.random() * (20 - 1 + 1)) + 1; 
 let numberOfGuesses = 5;
 
 button.addEventListener ('click', () => {
@@ -27,7 +27,7 @@ button.addEventListener ('click', () => {
     }
 
     else if (compare === 0) {
-        results.textContent = 'You Win!';  
+        results.textContent = 'You Win!';
         button.disabled = true;
     }
 
