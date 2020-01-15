@@ -16,6 +16,27 @@ p {
     font-size: 25px;
 }
 
+div {
+    color: #C638D2;
+    font-size: 25px;
+    margin: 10px;
+}
+
+input {
+    background-color: #C638D2;
+    font-size: 20px;
+}
+
+button {
+    background-color: #FBFF32;
+    font-size: 20px;
+}
+
+#results {
+    font-size: 50px;
+    color: #FBFF32;
+}
+
 
 
 
