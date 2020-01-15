@@ -6,15 +6,15 @@ const triesRemaining = document.getElementById('tries-remaining');
 const highLow = document.getElementById('high-low');
 const results = document.getElementById('results');
 
-
-const correctNumber = 4;
+// random number from MDN
+const correctNumber = Math.floor
+(Math.random() * (20 - 1 + 1)) + 1; 
 let numberOfGuesses = 5;
 
 button.addEventListener ('click', () => {
     
-
     const guess = Number(input.value);
-    const compare = compareNumbers(guess,correctNumber);
+    const compare = compareNumbers(guess, correctNumber);
 
     if (compare === -1) {
         highLow.textContent = 'Too Low!';

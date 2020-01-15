@@ -1,4 +1,3 @@
-
 const compareNumbers = (guess, correctNumber) => {
     if (guess === correctNumber) return 0;
     if (guess < correctNumber) return -1;
