@@ -1,0 +1,27 @@
+body {
+    background-color: #BBB4AC;
+}
+
+
+h1,
+h3 {font-family: 'Shadows Into Light', cursive;
+    color: #1F1740;
+}
+
+
+p,
+li {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+button {
+    background-color: #9AACD2;
+    border-color: #C2939B;
+    border-style: dotted;
+    font-size: 15px;
+}
+
+.results {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
