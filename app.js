@@ -38,13 +38,11 @@ button.addEventListener('click', () => {
 
     // if all three answers are correct, add class results to add rainbow background 
     if (counter === 3) { 
-        console.log(counter);
+        
         results.classList.add('results');
 
-    } else {
-        console.log(counter);
+    } 
       
-    }
 });
 
 
