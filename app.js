@@ -7,6 +7,8 @@ const button = document.getElementById('button');
 // Add a function to call on click of the quiz button
 button.addEventListener('click', () => {
 
+    
+
     // launch a prompt for text user input
     const name = prompt ('What is your name?');
 
@@ -38,10 +40,8 @@ button.addEventListener('click', () => {
 
     // if all three answers are correct, add class results to add rainbow background 
     if (counter === 3) { 
-        
         results.classList.add('results');
-
-    } 
+    } else results.classList.remove('results');
       
 });
 
