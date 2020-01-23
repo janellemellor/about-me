@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="guessingGame.css">
+    <title>Guessing Game</title>
+</head>
+
+<body>
+    <header><h1><strong>Guessing Game!</strong></h1>
+    </header>
+
+    <p>I'm thinking of a number between 1 and 20, can you guess it?</p>
+
+    <div>
+        Guess a number
+        <input id = "number-input">
+    </div>
+
+    <div>
+        <button id = "button">Make a guess!</button>
+    </div>
+
+    <div>
+        Number of tries remaining <span id = "tries-remaining"></span>
+    </div>
+
+    <div>
+        Your guess was <span id = "high-low"></span>
+    </div>
+
+    <div id = "results"></div>
+
+    <script type="module" src="guessingGame.js"></script>
+</body>
+
+</html>
